@@ -1,0 +1,109 @@
+
+.textNHL {
+    color:black;
+    text-shadow:
+    1px 1px 1px silver,
+    -1px 1px 1px silver;
+    transition: all .5s;
+    
+}
+
+.textNHL:hover {
+    text-shadow:
+    -1px -1px 1px rgb(124, 104, 104),
+    1px -1px 1px rgb(54, 41, 41);
+    color: rgb(46, 34, 34);
+}
+
+.textNFL {
+    text-shadow:
+    1px 1px 1px silver,
+    -1px 1px 1px silver;
+    color: white;
+    transition: all .5s;
+    
+}
+
+.textNFL:hover {
+    text-shadow:
+    -1px -1px 1px silver,
+    1px -1px 1px silver;
+    color: white;
+}
+
+.textNBA {
+    text-shadow:
+    1px 1px 1px silver,
+    -1px 1px 1px silver;
+    color: white;
+    transition: all .5s;
+}
+
+.textNBA:hover {
+    text-shadow:
+    -1px -1px 1px silver,
+    1px -1px 1px silver;
+    color: white;
+}
+
+.broadcastText {
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 7px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+    padding-bottom: 20px;
+}
+
+.donateText {
+    color:#00c6ff;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    width:350px;
+    text-decoration:none;
+    text-align:center;
+    margin:30px 0;
+    display: block;
+    background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+    font: 400 18px tahoma;
+    border: 1px solid #00C6FF;
+}
+
+.donateText:hover {
+    background-position: 0 0;
+    color:#fff;
+}
+
+body {
+    background-image: url(../assets/pattern.png);
+}
+
+.payment {
+    width:550px;
+    text-align: center;
+    margin: 30px 10px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 7px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+    padding-bottom: 20px;
+}
